@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brad's Portfolio</title>
+</head>
+<body>
+    <div class="sidebar">   
+        <p>Hello! I'm Brad</p>
+    </div>
+    <div class="extrabar">
+        <img src="../imgs/sun.png" alt="Sun" class="sun">
+    </div>
+    <script>
+    const sunImg = document.querySelector('.sun');
+    const body = document.body;
+    let darkMode = false;
+    sunImg.addEventListener('click', function() {
+        darkMode = !darkMode;
+        if (darkMode) {
+            body.classList.add('darkmode');
+            sunImg.src = '../imgs/moon.jpg';
+            sunImg.alt = 'Moon';
+        } else {
+            body.classList.remove('darkmode');
+            sunImg.src = '../imgs/sun.png';
+            sunImg.alt = 'Sun';
+        }
+    });
+    </script>
+    
+</body>
+</html>

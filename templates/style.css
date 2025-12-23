@@ -1,0 +1,72 @@
+body.darkmode {
+    background-image: url(../imgs/darkbackground.jpg) !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.sun {
+    position: static;
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+h1 {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-image: url(../imgs/lightbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
+
+.sidebar {
+    background-color: rgba(255, 255, 255);
+    border: 2px solid #000000be;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 1085px;
+    margin: auto;
+    width: auto;
+    height: auto;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+.extrabar {
+    background-color: rgba(255, 255, 255);
+    border: 2px solid #000000be;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    bottom: 500px;
+    left: 1050px;
+    right: 50px;
+    margin: auto;
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
